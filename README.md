@@ -16,13 +16,12 @@ The goals / steps of this project are the following:
 [image1]: ./images/pre-processed-image.png "preporcessed image"
 [image2]: ./images/fliped-image.png "Flipped Image"
 [image3]: ./images/model_architecture.png "Flipped Image"
-[video1]: ./video.mp4 "Final output"
 #### 1. My Submission includes all required files
 
 My project includes the following files:
-* [model.py]() containing the script to create and train the model
-* [drive.py]() for driving the car in autonomous mode
-* [model.h5]() containing a trained convolution neural network
+* [model.py](https://github.com/swapnilsoni/CarND-Behavioral-Cloning-P3/blob/master/model.py) containing the script to create and train the model
+* [drive.py](https://github.com/swapnilsoni/CarND-Behavioral-Cloning-P3/blob/master/drive.py) for driving the car in autonomous mode
+* [model.h5]()  Could not upload as file size is more than 100MB
 
 #### 2. Pre-processing images
 Gray scaled image
@@ -59,4 +58,4 @@ Shuffle: True
 The final step was to run the simulator to see how well the car was driving around track one. There were a few spots where the vehicle fell off the track when there are shadowes of the trees on the track. To improve the driving behavior in these cases, I need remove those shadowes on preprocessing
 
 #### 5. Video
-![video][video1]
+[![video](https://github.com/swapnilsoni/CarND-Behavioral-Cloning-P3/blob/master/images/video.png)](https://github.com/swapnilsoni/CarND-Behavioral-Cloning-P3/blob/master/video.mp4)
